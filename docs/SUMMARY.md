@@ -1,6 +1,6 @@
-# Summary
+# Table of contents
 
-- [Solidy Wallet](README.md)
-- [Support](support.md)
-- [Privacy Policy](privacy.md)
-- [Terms of Service](terms.md)
+* [Solidy Wallet Documentation](README.md)
+* [Support](support.md)
+* [Privacy Policy](privacy.md)
+* [Terms of Service](terms.md)
