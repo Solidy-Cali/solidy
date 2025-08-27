@@ -2,38 +2,38 @@
 
 ## Introduction
 
-Solidy is a fast, simple, and secure wallet built from day one with a multi-chain future in mind. Unlike wallets designed around a single ecosystem, Solidy was architected to scale across heterogeneous blockchain environments.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.&#x20;
 
-From Cosmos SDK chains to EVM-based networks, Bitcoin, and Starknet, Solidy offers a unified interface and integration model. This makes it easier for both dApp developers and chain builders to reach users across ecosystems without having to manage multiple wallet integrations.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
-#### Why Solidy? <a href="#why-keplr" id="why-keplr"></a>
+### Why Keplr? <a href="#why-keplr" id="why-keplr"></a>
 
-**Local Key Management**
+**Lorem ipsum dolor sit amet**
 
-Solidy stores all private keys locally on the user’s device. dApps have no direct access to these keys, and all signing operations must be explicitly approved through the Solidy interface, ensuring users retain full control over their accounts.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.&#x20;
 
-**Developer Convenience**
+**Lorem ipsum dolor sit amet**
 
-Solidy simplifies blockchain integration for developers by offering seamless compatibility with libraries like CosmJS. This eliminates complex connection processes, making it easier for developers to link web applications to blockchains and focus on creating user-centric experiences.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
-**Multi-Ecosystem Support**
+**Lorem ipsum dolor sit amet**
 
-Solidy supports Cosmos SDK chains, EVM networks, Bitcoin, and Starknet, with more ecosystems on the way. It’s built to be a future-proof solution for projects looking to reach users across multiple blockchain environments.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.&#x20;
 
-**Cross-Platform UX**
+**Lorem ipsum dolor sit amet**
 
-Solidy is available as both a [browser extension and a mobile app](https://www.keplr.app/get), providing users with a secure and seamless experience when accessing their wallets and dApps, whether at a desk or on the go.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
 #### Sections <a href="#sections" id="sections"></a>
 
-[Connect to ](https://docs.keplr.app/api/getting-started/connect-to-keplr)Solidy describes how to integrate Solidy into your web app.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 
-[Use with cosmjs](https://docs.keplr.app/api/use-with/cosmjs) describes how to use Solidy with CosmJS to build applications on Cosmos SDK-based chains.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 
-[Use with secretjs](https://docs.keplr.app/api/use-with/secretjs) describes how to interact with Secret Network using Solidy and secret-wasm features.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 
-[Suggest chain](https://docs.keplr.app/api/guide/suggest-chain) describes how to add support for custom or non-native chains to Solidy.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 
-[EVM-based chains support](https://docs.keplr.app/api/multi-ecosystem-support/evm) describes how to enable support for EVM-based chains with Solidy.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 
-[Starknet Support](https://docs.keplr.app/api/multi-ecosystem-support/starknet) describes how to enable support for Starknet chains with Solidy.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
