@@ -1,0 +1,39 @@
+/* Basic reset */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  color: #eaeaea;
+  background: radial-gradient(1200px 800px at 20% -10%, #1a1a1a, #0b0b0b 60%, #040404 100%);
+  font: 14px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.container { width: min(1024px, 92%); margin: 0 auto; }
+
+.site-header { position: sticky; top: 0; background: rgba(0,0,0,0.4); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(255,255,255,0.06); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; }
+.brand { font-weight: 700; letter-spacing: 0.5px; font-size: 18px; }
+.nav a { color: #cfcfcf; text-decoration: none; margin-left: 16px; }
+.nav a:hover { color: #fff; }
+
+.hero { padding: 72px 0 32px; }
+.hero-inner { text-align: center; }
+.hero h1 { margin: 0 0 8px; font-size: clamp(28px, 4vw, 44px); }
+.subtitle { color: #c0c0c0; margin: 0 0 20px; font-size: 16px; }
+
+.cta-row { display: inline-flex; gap: 12px; }
+.btn { display: inline-block; padding: 10px 14px; border-radius: 10px; text-decoration: none; }
+.btn-primary { background: #1f6feb; color: #fff; border: 1px solid rgba(255,255,255,0.12); }
+.btn-primary[aria-disabled="true"] { opacity: 0.6; cursor: not-allowed; }
+.btn-secondary { background: rgba(255,255,255,0.06); color: #fff; border: 1px solid rgba(255,255,255,0.08); }
+.btn:hover { filter: brightness(1.05); }
+
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; padding: 24px 0 64px; }
+.feature { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 16px; }
+.feature h3 { margin: 0 0 6px; font-size: 16px; }
+.feature p { margin: 0; color: #c8c8c8; }
+
+.site-footer { border-top: 1px solid rgba(255,255,255,0.06); }
+.footer-inner { display: flex; align-items: center; gap: 8px; padding: 16px 0; color: #bdbdbd; }
+.footer-inner a { color: #cfcfcf; text-decoration: none; }
+.footer-inner a:hover { color: #fff; }

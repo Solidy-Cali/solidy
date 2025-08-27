@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Solidy Wallet</title>
+  <meta name="description" content="Solidy — a simple, modern crypto wallet extension." />
+  <meta property="og:title" content="Solidy Wallet" />
+  <meta property="og:description" content="A clean, secure browser wallet with a beautiful UI." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">Solidy</div>
+      <nav class="nav">
+        <a href="https://docs.solidy.fun/" target="_blank" rel="noopener">Docs</a>
+        <a href="https://discord.com/invite/octra" target="_blank" rel="noopener">Discord</a>
+        <a href="https://github.com/Solidy-Cali" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Solidy Wallet</h1>
+        <p class="subtitle">A clean, secure browser wallet with a beautiful UI.</p>
+        <div class="cta-row">
+          <!-- Replace # with Chrome Web Store URL when available -->
+          <a id="install-btn" class="btn btn-primary" href="#" rel="noopener" aria-disabled="true">Add to Chrome</a>
+          <a class="btn btn-secondary" href="https://docs.solidy.fun/" target="_blank" rel="noopener">Read the Docs</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <div class="feature">
+        <h3>Secure by design</h3>
+        <p>Local password hashing and idle auto-lock help keep your wallet safe.</p>
+      </div>
+      <div class="feature">
+        <h3>Sleek experience</h3>
+        <p>Thoughtful animations, clean layout, and intuitive actions.</p>
+      </div>
+      <div class="feature">
+        <h3>Open roadmap</h3>
+        <p>Follow our Discord for updates and upcoming multi-chain support.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Solidy</span>
+      <span class="dot">•</span>
+      <a href="https://docs.solidy.fun/privacy" target="_blank" rel="noopener">Privacy</a>
+      <span class="dot">•</span>
+      <a href="https://docs.solidy.fun/terms" target="_blank" rel="noopener">Terms</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
